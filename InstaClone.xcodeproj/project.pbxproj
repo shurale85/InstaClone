@@ -32,6 +32,7 @@
 		B2B327E42692319E005B8379 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B327E32692319E005B8379 /* DatabaseManager.swift */; };
 		B2B327E7269232C2005B8379 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B327E6269232C2005B8379 /* AuthManager.swift */; };
 		B2B327EA26923341005B8379 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B327E926923341005B8379 /* StorageManager.swift */; };
+		B2B3280126923AB7005B8379 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B3280026923AB7005B8379 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		B2B327E32692319E005B8379 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		B2B327E6269232C2005B8379 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		B2B327E926923341005B8379 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		B2B3280026923AB7005B8379 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 				B2B327E32692319E005B8379 /* DatabaseManager.swift */,
 				B2B327E6269232C2005B8379 /* AuthManager.swift */,
 				B2B327E926923341005B8379 /* StorageManager.swift */,
+				B2B3280026923AB7005B8379 /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 				B25FD89A268F419300BDFF77 /* HomeViewController.swift in Sources */,
 				B25FD8D8268F477200BDFF77 /* SearchResultViewController.swift in Sources */,
 				B25FD8C3268F45DF00BDFF77 /* LoginViewController.swift in Sources */,
+				B2B3280126923AB7005B8379 /* Extensions.swift in Sources */,
 				B25FD8D5268F474D00BDFF77 /* SearchViewController.swift in Sources */,
 				B25FD8BC268F453C00BDFF77 /* ProfileViewController.swift in Sources */,
 				B2B327E7269232C2005B8379 /* AuthManager.swift in Sources */,
@@ -501,6 +505,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = InstaClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -520,6 +525,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = InstaClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
